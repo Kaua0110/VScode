@@ -1,0 +1,94 @@
+/* 1. RESET E ESTILOS GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #2c3e50;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto; /* Centraliza a página na tela */
+}
+
+/* 2. CABEÇALHO E TÍTULOS */
+header {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #0f3460;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    border-bottom: 2px solid #e94560;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* 3. SEÇÕES E CAIXAS */
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* 4. IMAGENS */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 5. LISTAS */
+ol, ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* 6. LINKS E BOTÕES */
+a {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0f3460;
+    text-decoration: underline;
+}
+
+/* 7. LINHAS DIVISÓRIAS */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 20px 0;
+}

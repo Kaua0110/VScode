@@ -1,0 +1,22 @@
+.catalogo {
+    background-color: white;
+}
+
+.produto1 {
+    background-color: lightgray;
+}
+
+body {
+    background-color: lightblue;
+}
+.produto1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
